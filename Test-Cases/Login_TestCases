@@ -1,0 +1,32 @@
+# Login Test Cases (E-commerce Application)
+
+### TC_01: Verify valid login
+Steps:
+1. Open login page
+2. Enter valid username
+3. Enter valid password
+4. Click Login
+
+Expected Result:
+User should login successfully and redirect to homepage
+
+---
+
+### TC_02: Verify invalid password
+Steps:
+1. Enter valid username
+2. Enter wrong password
+3. Click Login
+
+Expected Result:
+Error message should be displayed
+
+---
+
+### TC_03: Verify empty fields
+Steps:
+1. Keep username and password empty
+2. Click Login
+
+Expected Result:
+Validation message should be shown
